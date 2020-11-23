@@ -1,0 +1,47 @@
+body{
+    background:linear-gradient(45deg,rgb(209, 30, 84),black);
+}
+table{
+    margin-left: 550px;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+tr{
+   display: block;
+    padding: 7px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 3px 5px #d6d5d5;
+}
+td{
+  
+    border: 1px solid black;
+    box-shadow: 5px 5px 3px 5px #d6d5d5;
+}
+button{
+    padding: 20px;
+    color:black;
+}
+button:hover{
+    background-color: rgb(209, 46, 73);
+    color:white;
+    padding: 20px;
+}
+input{
+    height: 40px;
+    width: 100%;
+    font-weight: bold;
+   
+}
+.equl{
+    width: 280px;
+    height: 12vh;
+    font-size: 55px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+h1{
+    text-align: center;
+    color:white;
+    margin-top: 5%;
+}
