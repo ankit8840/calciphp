@@ -10,22 +10,22 @@ if ($final=="") {
 }
 echo $final;
 
-function operation(int $val1, $oprt, int $val2) 
+function operation( $val1, $oprt, $val2) 
 {
-    if ($oprt =="+") { 
+    if (($oprt =="+") and ($val1!='')) { 
         $final=$val1+$val2;
         return $final;
-    } elseif ($oprt =="-") { 
+    } elseif (($oprt =="-") and ($val1!='')) { 
         $final=$val1-$val2;
         return $final;
-    } elseif ($oprt =="*") { 
+    } elseif (($oprt =="*") and ($val1!=''))  { 
         $final=$val1*$val2;
         return $final;
-    } elseif ($oprt =="/") { 
+    } elseif (($oprt =="/") and ($val1!=''))  { 
         $final=$val1/$val2;
         return $final;
     }
-    
+    return $val2;
 }
 
 ?>
